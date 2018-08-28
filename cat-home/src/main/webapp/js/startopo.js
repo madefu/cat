@@ -140,7 +140,7 @@
 			var averageDegree = 2 * PI/(points.length+(self.twoSides?2:0));
             var offsetAngel = 0;
             if(self.twoSides){
-                offsetAngel = PI-(self.posLength + 1 + (self.navLength-1)/2) *　averageDegree;
+                offsetAngel = PI-(self.posLength + 1 + (self.navLength-1)/2) * averageDegree;
             }
 			var centerNode = this.centerNode;
 
